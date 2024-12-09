@@ -1,0 +1,120 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #5f2a8a; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e6a3e0; 
+}
+
+nav ul li a.current {
+    color: #e6a3e0; 
+}
+
+
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    color: #5f2a8a; 
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+}
+
+section ul {
+    font-size: 1.1em;
+    color: #555;
+}
+
+section ul li {
+    margin: 10px 0;
+}
+
+section .formulas p {
+    font-size: 1.2em;
+    color: #5f2a8a; 
+}
+
+section .formulas ul {
+    margin: 20px 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+section .formulas ul li {
+    font-size: 1.2em;
+    color: #5f2a8a;
+    margin: 10px 0;
+}
+
+footer.pie {
+    text-align: center;
+    background-color: #5f2a8a; 
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+#resultadoA {
+    background-color: #e6a3e0; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+}
+
+#resultadoA p {
+    margin: 10px 0;
+}
